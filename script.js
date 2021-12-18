@@ -15,3 +15,18 @@ let h = new Date().getHours();
    }else{ 
       h = h; 
    }
+
+  
+ h = h < 10 ? '0' + h :h;
+ m = m < 10 ? '0' + m :m;
+ s = s < 10 ? '0' + s :s;
+
+ hours.innerHTML = h;
+ minutes.innerHTML = m;
+  seconds.innerHTML = s;
+}
+setInterval(() =>{
+ digitalclock();
+})
+
+ 
