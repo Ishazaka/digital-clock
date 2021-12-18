@@ -41,3 +41,28 @@ border-radius: 10px;
 position: relative;
 
 }
+.clock .clockbody > div{
+ font-size: 60px;
+color: #69ff74;
+line-height: 1.5;
+letter-spacing: 4px;
+}
+
+#second{
+ opacity: 0;
+ animation: animate 1s infinite
+
+}
+
+@keyframes animate{
+ 0%{
+   opacity:0;
+ }
+ 50%{
+   opacity : 1;
+ }
+ 100%{
+   opacity:0 ;
+ }
+
+}
